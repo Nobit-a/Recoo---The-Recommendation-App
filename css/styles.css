@@ -1,0 +1,191 @@
+/* General body shit */
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f3f3;
+}
+/* Headings */
+.main{
+  padding: 30px;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f4f3f3;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+#title{
+  background-color: #000000;
+}
+/* Navigation Bar */
+.navbar{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-brand{
+  color: #f4f3f3;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+/* Poora topmost container */
+.container-fluid{
+  padding: 2% 10% 4% 10%; /* top-bottom left-right*/
+}
+.netflix{
+  border-radius: 25%;
+  padding: 6%;
+  padding-top: 10%;
+  width: 100%;
+}
+
+
+/* Buttons */
+.button{
+  margin-left: 5.5%;
+  margin-right: 7.5%;
+  margin-top: 2%;
+}
+
+.btn{
+  margin: 2% 1%;
+
+}
+
+/* Features */
+#features{
+  text-align: center;
+}
+
+
+.feat{
+  padding: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.icon{
+  padding: 30px;
+  padding-top: 50px;
+}
+.icon:hover{
+  color: #000000;
+}
+
+/* Testimonials */
+#testimonials{
+  padding: 80px 30px;
+  background-color: #e3e3e3;
+  text-align: center;
+
+}
+
+.desc{
+  padding: 6.5% 3.5%;
+}
+
+.emilia{
+  border-radius: 50%;
+  margin: 0 3%;
+  width: 90%;
+}
+
+.otherpics{
+  border-radius: 50%;
+  margin:0 3%;
+  width: 75%;
+}
+
+/* Press */
+#press{
+  background-color: #000000;
+  text-align: center;
+}
+
+.net{
+  border-radius: 0;
+  margin: 35px 40px 10px 0;
+  width: 80%;
+}
+.prime{
+  border-radius: 0;
+  margin: 65px 30px 10px 0;
+  width: 70%;
+}
+.crunch{
+  border-radius: 0;
+  margin: 50px 0 10px 0;
+  width: 35%;
+}
+
+.hulu{
+  border-radius: 0;
+  margin: 40px 20px 10px 0;
+  width: 75%;
+}
+
+/* Pricing */
+#pricing
+{
+  text-align: center;
+  background-color: #e3e3e3;
+
+}
+
+.plans{
+  padding: 50px;
+  padding-bottom: 30px;
+
+}
+.card-header{
+  background-color: #000000;
+  color: #f4f3f3;
+}
+.card-body{
+  background-color: #e3e3e3;
+}
+
+#cta{
+  background-color: #f4f3f3;
+  text-align: center;
+  padding: 6%;
+}
+
+#footer{
+  text-align: center;
+  background-color: #000000;
+  padding: 25px;
+  color: #f4f3f3;
+}
+
+.contact{
+  padding: 20px;
+}
+/* MEDIA QUERY*/
+@media (max-width: 992px){
+  #title{
+    text-align: center;
+    background-color: #000000;
+  }
+  }
+}
